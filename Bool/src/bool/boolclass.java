@@ -13,15 +13,23 @@ public class boolclass {
     
     
     
-    public void idade(){
-        int idade = 16;
-        boolean MaiorIdade = 18<=idade;
+    public void boo(){
         
-        if(MaiorIdade == false){
-        System.out.println("Você é MENOR de idade!!!");
+        
+        
+        
+        boolean a = true;
+        boolean b = false;
+        boolean t = true;
+        
+        boolean u = (a&b|t);
+        boolean x = u&(a ^ b);
+        
+        if(x == false){
+        System.out.println("false");
         }
         else {
-            System.out.println("Você é MAIOR de idade!!!");
+            System.out.println("true");
         }
         }
     }

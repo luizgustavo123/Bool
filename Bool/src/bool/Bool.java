@@ -17,7 +17,6 @@ public class Bool {
     public static void main(String[] args) {
         
        boolclass bol= new boolclass();
-       bol.idade();
+       bol.boo();
    
-    }
-}
+    }}
